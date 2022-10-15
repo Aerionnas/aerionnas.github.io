@@ -1,0 +1,95 @@
+/* STYLING FOR THE CONTACT ME PAGE */
+#contact-me {
+    color: #9C89FF;
+    font-family: 'playfair display', sans-serif;
+}
+
+/* this styles the form's text-boxes */
+.form-control {
+    background-color: #ffffee !important;
+    color: #7E38B7 !important;
+}
+
+/* this styles the submit button */
+.submit-it {
+    background-color: #00072D !important;
+    color: #9C89FF !important;
+    border: 2px solid #ffffee !important;
+}
+
+/* this colors everything within the div with this background*/
+.contact-head {
+    background-color: #00072D;
+}
+
+/* thelinks default color is white */
+#contact-me a {
+    color: #9C89FF;
+    font-weight: 700;
+}
+
+/* when you hover over the links, they change color */
+#contact-me a:hover {
+    color: #ffffee;
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+
+/* the active link has a different color than the others */
+#contact-me .active {
+    color: #FED18C !important;
+
+}
+
+/* this styles the hamburger menu */
+#contact-hamburger {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 238, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#contact-hamburger-outside {
+    border: 1px solid #ffffee;
+}
+
+/* this affect the title of the page */
+.contact-title {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 133.99%;
+
+    text-shadow: 0px 4px 4px #9C89FF;
+}
+
+/* this format the paragraphs at the top of the page */
+.lil-para {
+    color: #FED18C;
+}
+
+/* this affectst the picture on the page */
+#small-pic {
+    border: 5px solid #9C89FF;
+}
+
+/* this is a jumbotron element */
+#why-connect {
+    border: 5px solid #9C89FF;
+}
+
+/* this styles the question inside of the jumbotron element */
+#question {
+    color: #FED18C;
+    text-align: center;
+    line-height: 2;
+}
+
+/* only the span, asterick is stylesd here  */
+.star {
+    color: #FED18C;
+}
+
+/* END OF THE CONTACT ME SECTION */
+
+
+
+
+

@@ -1,0 +1,123 @@
+ /* STYING FOR THE ABOUT ME PAGES */
+
+ /* this is for the default styling for the page */
+ .about-page {
+    background-color: #9C89FF;
+    font-family: 'playfair display', sans-serif;
+    color: #541675
+}
+
+/* this styles the hamburger menu */
+#about-hamburger {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 7, 45, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* this affects the border of the hamburger menu */
+#about-hamburger-outside {
+    border: 1px solid #00072D;
+}
+
+/* this sets the default color of the links */
+#about a {
+    color: #00072D;
+    font-weight: 700;
+}
+
+/* this changes the color the links as your mouse hovers over the link */
+#about a:hover {
+    color: #541675;
+    text-shadow: 0px 4px 4px #00072D;
+   
+}
+
+/* this set the color of the active link */
+a.nav-link.active.second {
+    color: #FED18C !important;
+    text-decoration: wavy underline;
+}
+
+/* this styles the title of this page */
+#page-title {
+    
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 133.99%;
+
+    color: #00072D;
+
+    text-shadow: 0px 4px 4px #541675;
+    padding-bottom: 50px;
+}
+
+/* every paragraph is indented 25px */
+.add-spacing {
+    text-indent: 25px;
+    font-weight: 700;
+    color: #00072D;
+}
+
+/* this is the purple rectangle */
+.purple {
+    position: absolute;
+}
+
+/* this adds styling to the img */
+#pic {
+    min-width: 162px;
+    height: 250px;
+    border: 4px solid #00072D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 50px;
+    left: 50px;
+    margin-bottom: 60px;
+
+
+    position: relative;
+}
+
+/* This gives styling to the card */
+
+.card {
+    /* this is the height of the card. Since the text is longer than the card, there is going to be an overflow */
+    max-height: 500px;
+    /* this allows for rhe scrollbar */
+    overflow-y: auto;
+    border: 7px solid #00072D !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #7E38B7 !important;
+}
+
+/* this affects the body of the card */
+.card-body {
+
+    background: #9C89FF;
+
+    text-align: justify;
+}
+
+/* CUSTOMIZATION OF THE SCROLLBAR INSIDE OF THE CARD */
+
+/* this gives a width to the scrollbar so that it never changes */
+.card::-webkit-scrollbar {
+    width: 1vw;
+}
+
+/* this is the little bar thingy that scrolls/slides */
+.card::-webkit-scrollbar-thumb {
+    background-color: #7E38B7;
+
+}
+
+/* when you hover ove the scrollbar, it is going to change color */
+.card::-webkit-scrollbar-thumb:hover {
+    background-color: #00072D;
+
+}
+
+/* this is the backgrouns of the scrollbar, the track */
+.card::-webkit-scrollbar-track {
+    background-color: #9C89FF;
+}
+
+
+/* END OF ABOUT ME SECTION */

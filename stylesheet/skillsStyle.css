@@ -1,0 +1,205 @@
+/* BEGINNING OF TECHNICAL SKILLS SECITION */
+
+#skills-head {
+    color: #ffffee;
+    background-color: #541675;
+    font-family: 'playfair display', sans-serif;
+    /* font-size: 1rem; */
+}
+
+/* this is to style the links in the nav bar- default color */
+#skills-head a {
+    color: #ffffee ;
+    font-weight: 700;
+
+}
+
+/* stlyes links in the nav bar when you hover over them */
+#skills-head a:hover {
+    color: #FED18C !important;
+    text-shadow: 0px 4px 4px #00072D;
+   
+}
+
+/* makes the active link stick out from the rest */
+a.nav-link.active.third {
+    text-decoration: wavy underline !important;
+    color: #00072D !important;
+}
+
+/* this styles the hamburger menu */
+#skills-hamburger {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 238, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* this styles the hamburger menu */
+#skills-hamburger-outside {
+  border: 1px solid #ffffee;
+}
+
+/* this controls the left half of the skills page */
+.card{
+  color:#FED18C;
+  background-color: #541675 !important;
+  border: 7px solid #00072D !important;
+  border-radius: 0 !important;
+}
+
+
+.name{
+  font-style: italic;
+  font-size: 4rem !important;
+}
+
+/* this is to edit the picture */
+.smile {
+  border: 6px solid #00072D; 
+
+}
+
+/* horizontal rule */
+hr{
+  color: #FED18C!important;
+  height:4px;
+
+}
+
+
+/* this controls the subtitles of the cards */
+.card-subtitle{
+  opacity: 0.7;
+  color:#ffffee;
+}
+
+.progress-bar{
+  background-color: #00072D !important;
+ 
+}
+
+ /* this affects the social media icoons so that they grow when you hoever over them */
+ i:hover {
+  /* it zooms 150% */
+  transform: scale(1.5);
+  transition: transform .2s;
+  color: #FED18C !important;
+
+}
+
+
+#email{
+  font-size: 1.1rem;
+  color:#FED18C !important;
+  
+}
+
+
+/* this styles the second half of the skills page */
+
+#half{
+  background-color: #00072D;
+}
+
+
+/* this controls the color of the work experience section */
+.work-e{
+  color:#9C89FF;
+
+}
+
+/* this affects the dates on the 2 second column */
+.date{
+  font-size: 1.4rem;
+}
+
+/* behavioral skills */
+.b-skill{
+  background-color: #00072D !important;
+  border: 1px solid #FED18C !important;
+}
+
+/* special thanks to Web Development Tutorials
+https://www.youtube.com/watch?v=_97mXySEFk4&t=873s
+
+I repurposed their code to make my work experience/relevant coursework timeline
+*/
+.circle {
+  padding: 16px 20px;
+  border-radius: 30%;
+  background-color: #FED18C;
+  color: #FED18C;
+  max-height: 50px;
+  z-index: 2;
+}
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #6f45a7;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #6f45a7;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+
+/* this changes the color of the descriptions on the second column half */
+h5 {
+  color: #FED18C;
+  font-weight: 700;
+  
+}
+
+/* media queries */
+@media only screen and (min-width:768px) and (max-width:889px) {
+  .name{
+    font-style: italic;
+    font-size: 3rem !important;
+  }
+}
+
+
+
+/* END OF SKILLS SECTION */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+ 
+  

@@ -1,0 +1,317 @@
+body{
+    /* Photo by <a href="https://unsplash.com/@danielkorpai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Korpai</a> on <a href="https://unsplash.com/s/photos/computer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+    background-image: url("/images/daniel-korpai-HyTwtsk8XqA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+    
+
+
+    background-position: 50% 37%;
+    font-family: 'playfair display', sans-serif !important; 
+
+}
+
+#social{
+    bottom: 5px !important;
+}
+
+
+
+/* this alters the toggle-icon or hamburger menus so that that it is the correct color. I changed the rgba. */
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 238, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+
+/* this creates a border around the toggle menu/hamburger menu */
+.navbar-light .navbar-toggler {
+    border: 1px solid #ffffee;
+}
+
+
+/* the links affects the links on this page by making the yellow the default color */
+.hero a {
+    color: #9C89FF;
+    font-weight: 700;
+
+}
+
+/* this affects the links on this page by making the it have a color of purple as you hover over it */
+.hero a:hover {
+    color: #9C89FF;
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+
+/* overrides .active class color by giving the active link a color of white */
+a.nav-link.first {
+    color: #ffffee !important;
+    text-decoration: wavy underline !important;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width:370px){
+
+    .jumbotron {
+        background: rgba(156, 137, 255, 0.8);
+        
+        
+        width: 7rem !important;
+        
+        border-radius: 10px;
+        
+    
+    }
+    
+    
+    .lead{
+        font-size: .3rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+    }
+    h1{
+        font-size:.7rem !important;
+        font-weight: 900 !important;
+        color: #000;
+    }
+
+    span{
+        font-size: .5rem !important;
+        
+    }
+    
+
+
+}
+
+
+@media only screen and (min-width: 370px) and (max-width:520px){
+   
+    .jumbotron {
+        background: rgba(156, 137, 255, 0.8);
+        
+        
+        width: 9rem !important;
+        
+        border-radius: 10px;
+        
+    
+    }
+    
+    
+    .lead{
+        font-size: .4rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+    }
+    h1{
+        font-size:.8rem !important;
+        font-weight: 900 !important;
+        color: #000;
+    }
+
+    span{
+        font-size: .7rem !important;
+        
+    }
+}
+
+
+@media only screen and (min-width: 520px) and (max-width:800px){
+    
+
+    .jumbotron {
+        background: rgba(156, 137, 255, 0.8);
+        
+        
+        width: 15rem !important;
+        
+        border-radius: 10px;
+        
+    
+    }
+    
+    
+    .lead{
+        font-size: .7rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+    }
+    h1{
+        font-size:1rem !important;
+        font-weight: 900 !important;
+        color: #000;
+    }
+
+    span{
+        font-size: .9rem !important;
+        
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width:900px){
+    
+    .jumbotron {
+        background: rgba(156, 137, 255, 0.8);
+        
+        
+        width: 17rem !important;
+        
+        border-radius: 10px;
+        
+    
+    }
+    .lead{
+        font-size: .8rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+    }
+    h1{
+        font-size:1rem !important;
+        font-weight: 900 !important;
+        color: #000;
+    }
+
+    span{
+        font-size: 1.2rem !important;
+        
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 900px) and (max-width:1100px){
+   
+    .jumbotron {
+        background: rgba(156, 137, 255, 0.8);
+        
+        
+        width: 20rem !important;
+        
+        border-radius: 10px;
+        
+    
+    }
+    .lead{
+        font-size: .9rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+    }
+    h1{
+        font-size:1.2rem !important;
+        font-weight: 900 !important;
+        color: #000;
+    }
+
+    span{
+        font-size: 1.4rem !important;
+        
+    }
+  
+}
+
+@media only screen and (min-width: 1100px) and (max-width:1200px){
+   
+    .jumbotron {
+        background: rgba(156, 137, 255, 0.8);
+        
+        
+        width: 25rem !important;
+        
+        border-radius: 10px;
+        
+    
+    }
+    .lead{
+        font-size: 1rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+    }
+    h1{
+        font-size:1.7rem !important;
+        font-weight: 900 !important;
+        color: #000;
+    }
+
+    span{
+        font-size: 1.7rem !important;
+        
+    }
+  
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1390px){
+   
+    .jumbotron {
+        background: rgba(156, 137, 255, 0.8);
+        
+        
+        width:32rem !important;
+        
+        border-radius: 10px;
+        
+    
+    }
+    .lead{
+        font-size: 1.2rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+    }
+    h1{
+        font-size:1.7rem !important;
+        font-weight: 900 !important;
+        color: #000;
+    }
+
+    span{
+        font-size: 1.8rem !important;
+        
+    }
+  
+}
+
+
+
+
+@media only screen and (min-width: 1390px) {
+    
+    .jumbotron {
+        background: rgba(156, 137, 255, 0.8);
+        
+        
+        width:35rem !important;
+        
+        border-radius: 10px;
+        
+    
+    }
+    .lead{
+        font-size: 1.3em !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+    }
+    h1{
+        font-size:1.8rem !important;
+        font-weight: 900 !important;
+        color: #000;
+    }
+
+    span{
+        font-size: 2rem !important;
+        
+    }
+  
+        
+}

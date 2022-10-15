@@ -1,0 +1,120 @@
+
+/* this is the stylesheet for java.html and all the project html pages */
+body{
+    
+    
+    font-family: 'playfair display', sans-serif;
+
+}
+/* for accessibility reasons */
+p{
+    font-weight: 600;
+}
+/* stlying for ice cream html */
+#ice{
+    color: #00072D;
+    background-image: linear-gradient(#ffffee,#FED18C);
+}
+
+/* styling for the homeMatch html */
+#homeM{
+    color: #ffffee;
+    background-image: linear-gradient(#9C89FF,#00072D); 
+}
+
+/* register students html */
+#register{
+    color: #FED18C;
+    background-image: linear-gradient(#7E38B7,#00072D); 
+}
+
+/* reviews html */
+#reviews{
+    color: #00072D;
+    background-image: linear-gradient(#9c89ff,#7e38b7); 
+}
+
+/* fortune html */
+#fortune{
+    color: #00072D;
+    background-image: linear-gradient(#ffffee,#7e38b7);
+
+}
+
+/* lyft sim html */
+#lyft{
+    color: #00072D;
+    background-image: linear-gradient(#9c89ff, #ffffee);
+}
+
+/* lyft GUI html */
+#lyftGUI{
+    color: #FED18C;
+    background-color:#00072D;
+}
+
+/* address book html */
+#address{
+    color: #00072D;
+
+    background-image: linear-gradient(#9c89ff, #FED18C);
+}
+
+#chat{
+    color: #00072D;
+
+    background-image: linear-gradient(#ffffee,#00072D);
+}
+
+#guess{
+    color: #7e38b7;
+
+    background-color: #FED18C;
+}
+
+#interval{
+    color: #FED18C;
+
+    background-image: linear-gradient(#00072D, #ffffee);
+}
+
+#average{
+    color: #ffffee;
+
+    background-image: linear-gradient(#00072D, #9c89ff);
+}
+
+#loop{
+    color: #00072D;
+
+    background-image: linear-gradient(#FED18C,#00072D);
+}
+
+#age{
+    color: #00072D;
+
+    background-image: linear-gradient(#ffffee,#9c89ff);
+}
+
+#years{
+    color: #7e38b7;
+
+    background-color:#ffffee;
+}
+
+#list{
+    color: #00072D;
+
+    background-color:#9c89ff;
+}
+
+#smart{
+    color:#ffffee;
+    background-color: #00072D;
+}
+
+#plan{
+    color :#FED18C;
+    background-color: #9C89FF;
+
+}

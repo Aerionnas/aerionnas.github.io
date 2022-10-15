@@ -115,6 +115,8 @@ hr{
 .b-skill{
   background-color: #00072D !important;
   border: 1px solid #FED18C !important;
+  font-size: .8rem;
+  height: 7em !important;
 }
 
 /* special thanks to Web Development Tutorials
@@ -168,7 +170,7 @@ I repurposed their code to make my work experience/relevant coursework timeline
 }
 
 /* this changes the color of the descriptions on the second column half */
-h5 {
+h6 {
   color: #FED18C;
   font-weight: 700;
   

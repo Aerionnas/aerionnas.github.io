@@ -8,6 +8,10 @@
     z-index: 100;
 }
 
+.loading{
+    color:#9C89FF !important;
+}
+
 
 /* this controls the entire page */
  #projects-head {

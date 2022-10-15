@@ -1,3 +1,16 @@
+#preloader{
+    background: #000 url(/videos/gear.gif) no-repeat center center;
+    height:100vh;
+    width:100%;
+    position:fixed;
+    z-index: 100;
+}
+
+.loading{
+    color:#9C89FF !important;
+}
+
+
 body{
     /* Photo by <a href="https://unsplash.com/@danielkorpai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Korpai</a> on <a href="https://unsplash.com/s/photos/computer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */

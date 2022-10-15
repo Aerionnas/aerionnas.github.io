@@ -17,7 +17,7 @@ body {
     background-image: url("/images/daniel-korpai-HyTwtsk8XqA-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #000 !important;
+    
 
     font-family: 'playfair display', sans-serif !important;
 
@@ -64,13 +64,19 @@ a.nav-link.first {
 
     body {
         background-position: 50% 4%;
+        background-size: 107vw 107vh;
+        
 
     }
+    section{
+        padding-top: 170px !important;
+    }
     .jumbotron {
+        
         background: rgba(156, 137, 255, 0.8);
 
 
-        width: 7rem !important;
+        width: 9rem !important;
 
         border-radius: 10px;
 
@@ -104,8 +110,14 @@ a.nav-link.first {
 @media only screen and (min-width: 370px) and (max-width:520px) {
     body {
         background-position: 50% 40%;
+        background-size: 135vw 135vh;
+        
 
     }
+    section{
+        padding-top: 80px !important;
+    }
+    
     .jumbotron {
         background: rgba(156, 137, 255, 0.8);
 

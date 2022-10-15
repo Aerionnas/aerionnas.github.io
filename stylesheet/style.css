@@ -115,7 +115,7 @@
 
  /* this affects the image on this page by changing the opacity */
  #portrait {
-     opacity: 0.65;
+     opacity: 0.45;
  }
 
  @media screen and (min-width:320px) and (max-width:480px) {

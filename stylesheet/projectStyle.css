@@ -6,6 +6,7 @@
     width:100%;
     position:fixed;
     z-index: 100;
+    font-family: 'playfair display', sans-serif;
 }
 
 .loading{

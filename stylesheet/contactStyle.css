@@ -26,13 +26,15 @@
 #contact-me a {
     color: #9C89FF;
     font-weight: 700;
+    
 }
 
 /* when you hover over the links, they change color */
 #contact-me a:hover {
     color: #ffffee;
-    transform: scale(1.2);
-    transition: transform .2s;
+    text-shadow: 0px 4px 4px #9C89FF;
+    
+    
 }
 
 /* the active link has a different color than the others */

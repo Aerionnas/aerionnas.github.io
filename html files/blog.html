@@ -10,11 +10,9 @@
   <title>Aerionna's Portfolio</title>
 
   <!-- my stylesheet -->
-  <link rel="stylesheet" href="/stylesheet/blog.css">
+  <link rel="stylesheet" href="/style.css">
 
   <!-- importation of fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
@@ -27,26 +25,23 @@
   <script src="https://kit.fontawesome.com/2b2d340588.js" crossorigin="anonymous"></script>
 </head>
 
-<body id="home-default">
+<body id="blog-head">
 
- 
-  <!-- Hero Section -->
-  <div class="hero-section hero">
     <!-- everything is placed into a container that stretches across the screen -->
     <div class="container-fluid">
       <div class="row mb-4 mb-md-0">
         <nav class="navbar navbar-expand-lg navbar-light ">
           <!-- in order for nav bar to stretch across the entire page -->
           <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html"> <img src="/images/AeriLogo.png" alt="logo"> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <a class="navbar-brand"  href="/index.html"> <img src="/images/AeriLogo.png" alt="logo"> </a>
+            <button class="navbar-toggler" id="blog-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <!-- the toggler icon is the hamburger menu -->
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"id="blog-hamburger"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav" >
 
-              <ul class="navbar-nav ms-auto">
+              <ul class="navbar-nav ms-auto blog-links">
                 <li class="nav-item">
                   <a class="nav-link " href="/index.html">Home </a>
                 </li>
@@ -60,7 +55,7 @@
                   <a class="nav-link " href="/html files/projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active first" aria-current="page" href="/html files/blog.html">Blog</a>
+                  <a class="nav-link active fifth" aria-current="page" href="/html files/blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="/html files/contactMe.html">Contact Me</a>
@@ -73,23 +68,25 @@
           </div>
         </nav>
 
-        <section >
-          <div class="jumbotron jumbotron-fluid text-center mx-auto ">
+        
 
-            <h1 class=" text-center pt-1">OOPS...</h1>
-            <p class="lead m-0">You caught me. <br>
+        <section id="blog-jumbo">
+          <div class="megatron jumbotron jumbotron-fluid text-center mx-auto ">
+
+            <h1 class=" mega-oops text-center pt-1">OOPS...</h1>
+            <p class="mega-top lead m-0">You caught me. <br>
               This page is currently under construction. It will be up soon.<br>
               In the mean time, check out the rest of the website and connect with me on my socials.</p>
-            <span class="m-0">
-              <a class="btn btn-sm connect mx-auto" href="https://www.facebook.com/aerionna.stephenson.9" role="button">
-                <span style="font-size: 2em; color:#000;"><i class="fa-brands fa-square-facebook icon"></i></span>
+            <span class="m-0 ">
+              <a class="btn btn-sm connect mx-auto " href="https://www.facebook.com/aerionna.stephenson.9" role="button">
+                <span style="font-size: .6em; color:#000;"><i class="fa-brands fa-square-facebook icon"></i></span>
               </a>
               <a class="btn btn-sm connect " href="https://github.com/Aerionnas" role="button">
-                <span style="font-size: 2em; color: #000;"><i class="fa-brands fa-square-github icon"></i></span>
+                <span style="font-size: .6em; color: #000;"><i class="fa-brands fa-square-github icon"></i></span>
               </a>
               <a class="btn btn-sm connect " href="https://www.linkedin.com/in/aerionna-stephenson-44637b229/"
                 role="button">
-                <span style="font-size: 2em; color: #000;"><i class="fa-brands fa-linkedin icon"></i></span>
+                <span style="font-size: .6em; color: #000;"><i class="fa-brands fa-linkedin icon"></i></span>
               </a>
             </span>
 
@@ -97,14 +94,14 @@
 
           </div>
         </section>
-
+        <h1 class="blog-title text-center pt-5 ">Blog</h1>
 
 
 
       </div>
 
     </div>
-  </div>
+  
 
   
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

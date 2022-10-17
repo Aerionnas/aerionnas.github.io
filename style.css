@@ -1,0 +1,1282 @@
+ /* STYLING FOR THE HOME PAGE */
+
+
+ /* this is for the default styling for the page */
+ #home-default {
+     font-family: 'playfair display', sans-serif;
+     color: #FED18C;
+
+
+ }
+
+ /* everything within the hero-section is given this background color and it cuts the page off at the end of the image */
+ #hero-section {
+     background-color: #541675;
+ }
+
+ /* this alters the toggle-icon or hamburger menus so that that it is the correct color. I changed the rgba. */
+ .navbar-light .navbar-toggler-icon {
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28254, 209, 140, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+ }
+
+ /* this creates a border around the toggle menu/hamburger menu */
+ .navbar-light .navbar-toggler {
+     border: 1px solid #FED18C;
+ }
+
+
+ /* the links affects the links on this page by making the yellow the default color */
+ #hero-section a {
+     color: #FED18C;
+     font-weight: 700;
+
+ }
+
+ /* this affects the links on this page by making the it have a color of purple as you hover over it */
+ #hero-section a:hover {
+     color: #9C89FF;
+
+     text-shadow: 0px 4px 4px #00072D;
+
+ }
+
+ /* overrides .active class color by giving the active link a color of white */
+ a.nav-link.first {
+     color: #ffffee !important;
+     text-decoration: wavy underline !important;
+ }
+
+ /* styling for my name */
+ .my-name {
+
+
+     font-weight: 800;
+     font-size: 3.5rem;
+     line-height: 133.99%;
+
+     text-shadow: 0px 4px 4px #00072D;
+
+ }
+
+ /* styling for my position */
+ .my-position {
+
+     font-weight: 500;
+     font-size: 1.5rem;
+     line-height: 133.99%;
+
+     text-shadow: 0px 4px 4px #00072D;
+ }
+
+ /* this affect the experience-level portion of the jumbotron */
+ #experience-level {
+     color: #ffffee;
+
+     font-weight: 500;
+     font-size: 1.5rem;
+     line-height: 133.99%;
+
+     text-shadow: 0px 4px 4px #00072D;
+ }
+
+ /* this is the styling of the learn more button */
+ #hero-content .learn {
+     border: 2px solid #FED18C;
+     font-size: 1.2rem;
+     color: #FED18C;
+     font-weight: 800;
+     text-shadow: 0px 4px 4px #00072D;
+
+ }
+
+
+ /* this affects the styling of the buttons next to let's connect  */
+ #hero-content .connect {
+     opacity: 0.9;
+
+ }
+
+
+ /* this affects the social media icoons so that they grow when you hoever over them */
+ .my-position i:hover {
+     /* it zooms 150% */
+     transform: scale(1.5);
+     transition: transform .2s;
+     color: #9C89FF !important;
+
+ }
+
+ /* this changes the color of the line on the Jumbotron */
+ hr {
+     color: #9C89FF !important;
+
+ }
+
+ /* this affects the image on this page by changing the opacity */
+ #portrait {
+     opacity: 0.45;
+ }
+
+ @media screen and (min-width:320px) and (max-width:480px) {
+
+     /* styling for my name */
+     .my-name {
+
+         font-style: italic;
+         font-weight: 800;
+         font-size: 1.9rem;
+         line-height: 133.99%;
+
+         text-shadow: 0px 4px 4px #00072D;
+
+     }
+
+     /* styling for my position */
+     .my-position {
+
+         font-weight: 500;
+         font-size: 0.9rem;
+         line-height: 133.99%;
+
+         text-shadow: 0px 4px 4px #00072D;
+     }
+
+     /* this affect the experience-level portion of the jumbotron */
+     #experience-level {
+         color: #9C89FF;
+
+         font-weight: 500;
+         font-size: 0.9rem;
+         line-height: 133.99%;
+
+         text-shadow: 0px 4px 4px #00072D;
+     }
+
+     /* this is the styling of the learn more button */
+     .hero-content .learn {
+         border: 2px dotted #FED18C;
+         font-size: 0.9rem;
+         color: #FED18C;
+         font-weight: 800;
+     }
+
+     .icon {
+         font-size: 1.5rem;
+     }
+ }
+
+ /* END OF HOME SECTION */
+
+
+
+
+  /* STYING FOR THE ABOUT ME PAGES */
+
+ /* this is for the default styling for the page */
+ #about-page {
+    background-color: #9C89FF ;
+    font-family: 'playfair display', sans-serif;
+    color: #541675;
+}
+
+/* this styles the hamburger menu */
+#about-hamburger {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 7, 45, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* this affects the border of the hamburger menu */
+#about-hamburger-outside {
+    border: 1px solid #00072D;
+}
+
+/* this sets the default color of the links */
+#about a {
+    color: #00072D;
+    font-weight: 700;
+}
+
+/* this changes the color the links as your mouse hovers over the link */
+#about a:hover {
+    color: #541675;
+    text-shadow: 0px 4px 4px #00072D;
+   
+}
+
+/* this set the color of the active link */
+a.nav-link.active.second {
+    color: #FED18C !important;
+    text-decoration: wavy underline;
+}
+
+/* this styles the title of this page */
+#page-title {
+    
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 133.99%;
+
+    color: #00072D;
+
+    text-shadow: 0px 4px 4px #541675;
+    padding-bottom: 50px;
+}
+
+/* every paragraph is indented 25px */
+.add-spacing {
+    text-indent: 25px;
+    font-weight: 700;
+    color: #00072D;
+}
+
+/* this is the purple rectangle */
+.purple {
+    position: absolute;
+}
+
+/* this adds styling to the img */
+#pic {
+    min-width: 162px;
+    height: 250px;
+    border: 4px solid #00072D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 50px;
+    left: 50px;
+    margin-bottom: 60px;
+
+
+    position: relative;
+}
+
+/* This gives styling to the card */
+
+#bio {
+    /* this is the height of the card. Since the text is longer than the card, there is going to be an overflow */
+    max-height: 500px;
+    /* this allows for rhe scrollbar */
+    overflow-y: auto;
+    border: 7px solid #00072D !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #7E38B7 !important;
+}
+
+/* this affects the body of the card */
+#bio .card-body {
+
+    background: #9C89FF;
+
+    text-align: justify;
+}
+
+/* CUSTOMIZATION OF THE SCROLLBAR INSIDE OF THE CARD */
+
+/* this gives a width to the scrollbar so that it never changes */
+#bio::-webkit-scrollbar {
+    width: 1vw;
+}
+
+/* this is the little bar thingy that scrolls/slides */
+#bio::-webkit-scrollbar-thumb {
+    background-color: #7E38B7;
+
+}
+
+/* when you hover ove the scrollbar, it is going to change color */
+#bio::-webkit-scrollbar-thumb:hover {
+    background-color: #00072D;
+
+}
+
+/* this is the backgrouns of the scrollbar, the track */
+#bio::-webkit-scrollbar-track {
+    background-color: #9C89FF;
+}
+
+
+/* END OF ABOUT ME SECTION */
+
+
+
+
+
+
+/* BEGINNING OF TECHNICAL SKILLS SECITION */
+
+#skills-head {
+    color: #ffffee;
+    background-color: #541675;
+    font-family: 'playfair display', sans-serif;
+    /* font-size: 1rem; */
+}
+
+/* this is to style the links in the nav bar- default color */
+#skills-head a {
+    color: #ffffee ;
+    font-weight: 700;
+
+}
+
+/* stlyes links in the nav bar when you hover over them */
+#skills-head a:hover {
+    color: #FED18C !important;
+    text-shadow: 0px 4px 4px #00072D;
+   
+}
+
+/* makes the active link stick out from the rest */
+a.nav-link.active.third {
+    text-decoration: wavy underline !important;
+    color: #00072D !important;
+}
+
+/* this styles the hamburger menu */
+#skills-hamburger {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 238, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* this styles the hamburger menu */
+#skills-hamburger-outside {
+  border: 1px solid #ffffee;
+}
+
+/* this controls the left half of the skills page */
+#big-c{
+  color:#FED18C;
+  background-color: #541675 !important;
+  border: 7px solid #00072D !important;
+  border-radius: 0 !important;
+}
+
+
+.name{
+  font-style: italic;
+  font-size: 4rem !important;
+}
+
+/* this is to edit the picture */
+.smile {
+  border: 6px solid #00072D; 
+
+}
+
+/* horizontal rule */
+#big-c hr{
+  color: #FED18C!important;
+  height:4px;
+
+}
+
+
+/* this controls the subtitles of the cards */
+#big-c .card-subtitle{
+  opacity: 0.7;
+  color:#ffffee;
+}
+
+.progress-bar{
+  background-color: #00072D !important;
+ 
+}
+
+ /* this affects the social media icoons so that they grow when you hoever over them */
+ .skills-icon:hover {
+  /* it zooms 150% */
+  transform: scale(1.5);
+  transition: transform .2s;
+  color: #FED18C !important;
+
+}
+
+
+#email{
+  font-size: 1.1rem;
+  color:#FED18C !important;
+  
+}
+
+
+/* this styles the second half of the skills page */
+
+#half{
+  background-color: #00072D;
+}
+
+
+/* this controls the color of the work experience section */
+.work-e{
+  color:#9C89FF;
+
+}
+
+/* this affects the dates on the 2 second column */
+.date{
+  font-size: 1.4rem;
+}
+
+/* behavioral skills */
+.b-skill{
+  background-color: #00072D !important;
+  border: 1px solid #FED18C !important;
+  font-size: .8rem;
+  height: 7em !important;
+}
+
+/* special thanks to Web Development Tutorials
+https://www.youtube.com/watch?v=_97mXySEFk4&t=873s
+
+I repurposed their code to make my work experience/relevant coursework timeline
+*/
+.circle {
+  padding: 16px 20px;
+  border-radius: 30%;
+  background-color: #FED18C;
+  color: #FED18C;
+  max-height: 50px;
+  z-index: 2;
+}
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #6f45a7;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #6f45a7;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+
+/* this changes the color of the descriptions on the second column half */
+h6 {
+  color: #FED18C;
+  font-weight: 700;
+  
+}
+
+/* media queries */
+@media only screen and (min-width:768px) and (max-width:889px) {
+  .name{
+    font-style: italic;
+    font-size: 3rem !important;
+  }
+}
+
+
+
+/* END OF SKILLS SECTION */
+
+
+
+
+
+ /* BEGINNING OF PROJECTS PAGE */
+
+ #preloader{
+    background: #000 url(/videos/gear.gif) no-repeat center center;
+    height:100vh;
+    width:100%;
+    position:fixed;
+    z-index: 100;
+    font-family: 'playfair display', sans-serif;
+}
+
+.loading{
+    color:#9C89FF;
+}
+
+
+/* this controls the entire page */
+ #projects-head {
+    color: #541675;
+    background-image: linear-gradient(#ffffee,#9c89ff);
+    font-family: 'playfair display', sans-serif;
+}
+
+
+
+/* this is to style the links in the nav bar- default color */
+#projects-head a {
+    color: #9C89FF;
+    font-weight: 700;
+
+}
+
+/* stlyes links in the nav bar when you hover over them */
+#projects-head a:hover {
+    color: #00072D !important;
+    text-shadow: 0px 4px 4px #00072D;
+
+}
+
+/* makes the active link stick out from the rest */
+a.nav-link.active.fourth{
+    text-decoration: wavy underline !important;
+    color: #541675!important;
+}
+
+/* this styles the hamburger menu */
+#projects-hamburger {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 7, 45, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* this affects the border of the hamburger menu */
+#projects-hamburger-outside {
+    border: 1px solid #00072D;
+}
+/* java section */
+
+/* java title */
+#java-project{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.proj-card{
+    height:550px !important;   
+}
+.proj-card:hover{
+    box-shadow: 5px 5px 10px -4px #541675;
+ }
+
+.proj-card img{
+    width: 100%;
+    height: 312px!important;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.proj-card .card-body{
+    background-color: #00072D;
+    color:#9C89FF !important
+}
+
+
+a.btn.btn-primary{
+    background-color: #9C89FF;
+    color:#00072D !important;
+    
+}
+
+/* end of java section */
+
+
+
+/* this is for the title of the software entrepreneurship card */
+.c-title{
+
+    color:#00072D;
+    font-size: 3rem;
+    
+ }
+
+.small-description-software{
+    color:#00072D;
+    font-weight: 600;
+}   
+
+
+/* javascript title */
+.js-title{
+    color:#FED18C;
+    font-size: 3rem;
+}
+
+
+
+
+/* END OF THE PROJECTS STYLESHEET */
+
+
+
+/* THIS IS A STYLESHEET FOR THE JAVA PROJECTS */
+
+/* this is the stylesheet for java.html and all the project html pages */
+body{
+    
+    
+    font-family: 'playfair display', sans-serif;
+
+}
+/* for accessibility reasons */
+.java-p p{
+    font-weight: 600;
+}
+/* stlying for ice cream html */
+#ice{
+    color: #00072D;
+    background-image: linear-gradient(#ffffee,#FED18C);
+}
+
+/* styling for the homeMatch html */
+#homeM{
+    color: #ffffee;
+    background-image: linear-gradient(#9C89FF,#00072D); 
+}
+
+/* register students html */
+#register{
+    color: #FED18C;
+    background-image: linear-gradient(#7E38B7,#00072D); 
+}
+
+/* reviews html */
+#reviews{
+    color: #00072D;
+    background-image: linear-gradient(#9c89ff,#7e38b7); 
+}
+
+/* fortune html */
+#fortune{
+    color: #00072D;
+    background-image: linear-gradient(#ffffee,#7e38b7);
+
+}
+
+/* lyft sim html */
+#lyft{
+    color: #00072D;
+    background-image: linear-gradient(#9c89ff, #ffffee);
+}
+
+/* lyft GUI html */
+#lyftGUI{
+    color: #FED18C;
+    background-color:#00072D;
+}
+
+/* address book html */
+#address{
+    color: #00072D;
+
+    background-image: linear-gradient(#9c89ff, #FED18C);
+}
+
+#chat{
+    color: #00072D;
+
+    background-image: linear-gradient(#ffffee,#00072D);
+}
+
+#guess{
+    color: #7e38b7;
+
+    background-color: #FED18C;
+}
+
+#interval{
+    color: #FED18C;
+
+    background-image: linear-gradient(#00072D, #ffffee);
+}
+
+#average{
+    color: #ffffee;
+
+    background-image: linear-gradient(#00072D, #9c89ff);
+}
+
+#loop{
+    color: #00072D;
+
+    background-image: linear-gradient(#FED18C,#00072D);
+}
+
+#age{
+    color: #00072D;
+
+    background-image: linear-gradient(#ffffee,#9c89ff);
+}
+
+#years{
+    color: #7e38b7;
+
+    background-color:#ffffee;
+}
+
+#list{
+    color: #00072D;
+
+    background-color:#9c89ff;
+}
+
+#smart{
+    color:#ffffee;
+    background-color: #00072D;
+}
+
+#plan{
+    color :#FED18C;
+    background-color: #9C89FF;
+
+}
+
+
+/* THIS IS THE END OF THE STYLESHEET FOR THE JAVA PROJECTS */
+
+
+
+  
+ /* STYLESHEET FOR THE BLOG PAGE */
+ #blog-head {
+    /* Photo by <a href="https://unsplash.com/@danielkorpai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Korpai</a> on <a href="https://unsplash.com/s/photos/computer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+    background-image: url("/images/daniel-korpai-HyTwtsk8XqA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    font-family: 'playfair display', sans-serif !important;
+
+}
+
+
+/* this alters the toggle-icon or hamburger menus so that that it is the correct color. I changed the rgba. */
+#blog-hamburger {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28254, 209, 140, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+
+/* this creates a border around the toggle menu/hamburger menu */
+#blog-toggler{
+    border: 1px solid #FED18C;
+}
+
+
+/* the links affects the links on this page by making the yellow the default color */
+.blog-links a {
+    color: #FED18C;
+    font-weight: 700;
+
+}
+
+/* this affects the links on this page by making the it have a color of purple as you hover over it */
+.blog-links a:hover {
+    color: #9c89ff;
+    text-shadow: 0px 4px 4px #9C89FF;
+
+
+}
+
+/* overrides .active class color by giving the active link a color of white */
+a.nav-link.fifth {
+    color: #ffffee !important;
+    text-decoration: wavy underline !important;
+}
+
+#blog-jumbo i:hover{
+    color:#FED18C;
+    text-shadow: 0px 4px 4px ;
+}
+
+ /* styling for my name */
+ .blog-title {
+
+
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 133.99%;
+
+    color:#000;
+    
+
+    text-shadow: 0px 4px 4px #00072D
+
+}
+
+
+@media only screen and (min-width: 300px) and (max-width:380px) {
+
+    #blog-head {
+        background-position: 50% 45%;
+        background-size: 110vw 150vh;
+        
+
+    }
+    #blog-jumbo{
+        padding-top: 50px !important;
+    }
+    .megatron {
+        
+        background: rgba(156, 137, 255, 0.8);
+
+
+        width: 9rem !important;
+        
+
+        border-radius: 10px;
+
+
+    }
+
+
+    .mega-top {
+        
+        font-size: .4rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+        
+
+    }
+
+    .mega-oops {
+        font-size: .6rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        margin-bottom: 0;
+        
+        
+        
+    }
+
+    .megatron i{
+        font-size: .9rem !important;
+    }
+   
+
+
+}
+
+
+@media only screen and (min-width: 379px) and (max-width:550px) {
+    #blog-head {
+        background-position: 50% 45%;
+        background-size: 110vw 150vh;
+        
+
+    }
+    #blog-jumbo{
+        padding-top: 50px !important;
+    }
+    .megatron {
+        
+        background: rgba(156, 137, 255, 0.8);
+
+
+        width: 14rem !important;
+        
+
+        border-radius: 10px;
+
+
+    }
+
+
+    .mega-top {
+        
+        font-size: .5rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+        
+
+    }
+
+    .mega-oops {
+        font-size: .7rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        margin-bottom: 0;
+        
+        
+        
+    }
+
+    .megatron i{
+        font-size: 1rem !important;
+    }
+   
+}
+
+
+@media only screen and (min-width: 550px) and (max-width:650px) {
+
+    #blog-head {
+        background-position: 50% 40%;
+        background-size: 115vw 170vh;
+        
+
+    }
+    #blog-jumbo{
+        padding-top: 70px !important;
+    }
+    .megatron {
+        
+        background: rgba(156, 137, 255, 0.8);
+
+
+        width: 18rem !important;
+        
+
+        border-radius: 10px;
+
+
+    }
+
+
+    .mega-top {
+        
+        font-size: .70rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+        
+
+    }
+
+    .mega-oops {
+        font-size: 1rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        margin-bottom: 0;
+        
+        
+        
+    }
+
+    .megatron i{
+        font-size: 1.3rem !important;
+    }
+}
+
+
+@media only screen and (min-width: 650px) and (max-width:750px) {
+
+    #blog-head {
+        background-position: 50% 50%;
+        background-size: 115vw 170vh;
+        
+
+    }
+    #blog-jumbo{
+        padding-top: 5px !important;
+    }
+    .megatron {
+        
+        background: rgba(156, 137, 255, 0.8);
+
+
+        width: 20rem !important;
+        
+
+        border-radius: 10px;
+
+
+    }
+
+
+    .mega-top {
+        
+        font-size: .8rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+        
+
+    }
+
+    .mega-oops {
+        font-size: 1rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        margin-bottom: 0;
+        
+        
+        
+    }
+
+    .megatron i{
+        font-size: 1.6rem !important;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width:900px) {
+
+    #blog-head {
+        background-position: 50% 45%;
+        background-size: 115vw 200vh;
+        
+
+    }
+    #blog-jumbo{
+        padding-top: 60px !important;
+        
+    }
+    .megatron {
+        
+        background: rgba(156, 137, 255, 0.8);
+
+
+        width: 25rem !important;
+        
+
+        border-radius: 10px;
+
+
+    }
+
+
+    .mega-top {
+        
+        font-size: .9rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+        
+
+    }
+
+    .mega-oops {
+        font-size: 1.3rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        margin-bottom: 0;
+        
+        
+        
+    }
+
+    .megatron i{
+        font-size: 1.9rem !important;
+    }
+}
+
+
+
+@media only screen and (min-width: 900px) and (max-width:1200px) {
+
+    #blog-head {
+        background-position: 50% 48%;
+        background-size: 115vw 200vh;
+        
+
+    }
+    #blog-jumbo{
+        padding-top: 20px !important;
+        
+        
+    }
+    .megatron {
+        
+        background: rgba(156, 137, 255, 0.8);
+
+
+        width: 32rem !important;
+        
+
+        border-radius: 10px;
+
+
+    }
+
+
+    .mega-top {
+        
+        font-size: 1.1rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+        
+
+    }
+
+    .mega-oops {
+        font-size: 1.6rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        margin-bottom: 0;
+        
+        
+        
+    }
+
+    .megatron i{
+        font-size: 1.9rem !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    #blog-head {
+        background-position: 50% 46%;
+        background-size: 115vw 200vh;
+        
+
+    }
+    #blog-jumbo{
+        padding-top: 20px !important;
+       
+        
+        
+    }
+    .megatron {
+        
+        background: rgba(156, 137, 255, 0.8);
+
+
+        width: 37rem !important;
+        
+
+        border-radius: 10px;
+
+
+    }
+
+
+    .mega-top {
+        
+        font-size: 1.3rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        
+        
+
+    }
+
+    .mega-oops {
+        font-size: 1.7rem !important;
+        font-weight: 900 !important;
+        color: #000;
+        margin-bottom: 0;
+        
+        
+        
+    }
+
+    .megatron i{
+        font-size: 2.4rem !important;
+    }
+}
+
+
+
+
+/* END OF BLOG SECTION */
+ 
+  
+
+/* STYLING FOR THE CONTACT ME PAGE */
+#contact-me {
+    color: #9C89FF;
+    font-family: 'playfair display', sans-serif;
+}
+
+/* this styles the form's text-boxes */
+.form-control {
+    background-color: #ffffee !important;
+    color: #7E38B7 !important;
+}
+
+/* this styles the submit button */
+.submit-it {
+    background-color: #00072D !important;
+    color: #9C89FF !important;
+    border: 2px solid #ffffee !important;
+}
+
+/* this colors everything within the div with this background*/
+.contact-head {
+    background-color: #00072D;
+}
+
+/* thelinks default color is white */
+#contact-me a {
+    color: #9C89FF;
+    font-weight: 700;
+    
+}
+
+/* when you hover over the links, they change color */
+#contact-me a:hover {
+    color: #ffffee;
+    text-shadow: 0px 4px 4px #9C89FF;
+    
+    
+}
+
+/* the active link has a different color than the others */
+#contact-me .active {
+    color: #FED18C !important;
+
+}
+
+/* this styles the hamburger menu */
+#contact-hamburger {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 238, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#contact-hamburger-outside {
+    border: 1px solid #ffffee;
+}
+
+/* this affect the title of the page */
+.contact-title {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 133.99%;
+
+    text-shadow: 0px 4px 4px #9C89FF;
+}
+
+/* this format the paragraphs at the top of the page */
+.lil-para {
+    color: #FED18C;
+}
+
+/* this affectst the picture on the page */
+#small-pic {
+    border: 5px solid #9C89FF;
+}
+
+/* this is a jumbotron element */
+#why-connect {
+    border: 5px solid #9C89FF;
+}
+
+/* this styles the question inside of the jumbotron element */
+#question {
+    color: #FED18C;
+    text-align: center;
+    line-height: 2;
+}
+
+/* only the span, asterick is stylesd here  */
+.star {
+    color: #FED18C;
+}
+
+/* END OF THE CONTACT ME SECTION */
+
+
+
+
+

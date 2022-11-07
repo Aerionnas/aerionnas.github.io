@@ -568,7 +568,7 @@ I repurposed their code to make my work experience/relevant coursework timeline
 
  /* this controls the entire page */
  #projects-head {
-     color: #541675;
+     color: #00072D;
      background-image: linear-gradient(#ffffee, #9c89ff);
      font-family: 'playfair display', sans-serif;
  }
@@ -614,7 +614,7 @@ I repurposed their code to make my work experience/relevant coursework timeline
  }
 
  .proj-card {
-     height: 550px !important;
+     height: 600px !important;
  }
 
  .proj-card:hover {
@@ -631,12 +631,12 @@ I repurposed their code to make my work experience/relevant coursework timeline
 
  .proj-card .card-body {
      background-color: #00072D;
-     color: #9C89FF !important
+     color: #FED18C !important;
  }
 
 
  a.btn.btn-primary {
-     background-color: #9C89FF;
+     background-color: #FED18C;
      color: #00072D !important;
 
  }
@@ -661,7 +661,7 @@ I repurposed their code to make my work experience/relevant coursework timeline
 
  /* javascript title */
  .js-title {
-     color: #FED18C;
+     
      font-size: 3rem;
  }
 

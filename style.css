@@ -862,10 +862,11 @@ I repurposed their code to make my work experience/relevant coursework timeline
      font-size: 3.5rem;
      line-height: 133.99%;
 
-     color: #000;
+     color: #00072D;
 
 
-     text-shadow: 0px 4px 4px #00072D
+     text-shadow: 2px 6px 6px #00072D;
+     padding-top: 150px;
  }
 
 
@@ -897,10 +898,10 @@ I repurposed their code to make my work experience/relevant coursework timeline
 
 
      .mega-top {
-
          font-size: .4rem !important;
          font-weight: 900 !important;
          color: #000;
+         
 
 
 

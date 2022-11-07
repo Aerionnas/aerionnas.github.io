@@ -403,6 +403,7 @@
  /* this is to edit the picture */
  .smile {
      border: 6px solid #00072D;
+    
 
  }
 
@@ -457,7 +458,7 @@
 
  /* this affects the dates on the 2 second column */
  .date {
-     font-size: 1.4rem;
+     font-size: 1rem;
  }
 
  /* behavioral skills */
